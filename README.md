@@ -28,7 +28,7 @@ pip3 install -r requirement.txt
 <h1>
 How to use script
 </h1>
-You can customize this script for your porpose, but by default this script runs from CLI.
+You can customize this script for your purpose, but by default this script runs from CLI.
 <br>
 Simply use this command in terminal:
 
