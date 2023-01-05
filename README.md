@@ -1,5 +1,5 @@
 # sotcks-support-resistance-finder
-Identify support and resistance zones of stock price using python!
+Identify support and resistance zones of stocks price using python!
 <h1>
 What is support and resistance zones and how we can find them?
 </h1>
