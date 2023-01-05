@@ -1,5 +1,5 @@
 import numpy as np
-import requests, time, traceback, gc
+import requests, time, traceback, gc, sys
 from io import StringIO
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -7,7 +7,7 @@ import pandas as pd
 import warnings
 warnings.filterwarnings('ignore')
 
-class TREND:
+class SRFINDER:
     def __init__(self):
         self.market = None
         self.limit = None
@@ -154,5 +154,5 @@ class TREND:
         except:
             self.exit_program = True
             traceback.print_exc()
-trend = TREND()
-trend.handler('btcusdt', '1hour', 1000, 'n')
+trend = SRFINDER()
+trend.handler(sys.argv[1], sys.argv[2], int(sys.argv[3]), sys.argv[4])
